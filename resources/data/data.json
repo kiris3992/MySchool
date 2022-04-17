@@ -1,0 +1,243 @@
+{
+    "folders":{
+        "img":"/resources/assets/img"
+    },
+    "local_db":{
+        "FunMode":{
+            "opened":false
+        },
+        "courses":[
+            {"id":1,"title":"CBCS 16","stream":"C#","type":"1","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":2,"title":"CBJV 16","stream":"Java","type":"0","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":3,"title":"CBPH 17","stream":"Php","type":"1","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":4,"title":"CBJS 16","stream":"Javascript","type":"1","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":5,"title":"CBPY 16","stream":"Python","type":"0","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":6,"title":"CBSQ 16","stream":"Sql","type":"0","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":7,"title":"CBMQ 16","stream":"MySql","type":"0","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":8,"title":"CBC+ 16","stream":"C++","type":"0","startDate":"2022-03-11","endDate":"2022-09-30"},
+            {"id":9,"title":"CBHT 15","stream":"HTML","type":"1","startDate":"2022-02-01","endDate":"2022-09-30"},
+            {"id":10,"title":"CBDR 16","stream":"Dart","type":"0","startDate":"2022-03-01","endDate":"2022-09-30"},
+            {"id":11,"title":"CBRB 16","stream":"Ruby","type":"1","startDate":"2022-03-01","endDate":"2022-09-30"}
+
+        ],
+        "trainers":[
+            {"id":1,"firstName":"John","lastName":"West","subject":"C#"},
+            {"id":2,"firstName":"Peter","lastName":"Pan","subject":"Java"},
+            {"id":3,"firstName":"Maria","lastName":"Callas","subject":"Javascript"},
+            {"id":4,"firstName":"Telis","lastName":"Savalas","subject":"Php"},
+            {"id":5,"firstName":"Michael","lastName":"Night","subject":"Python"}
+        ],
+        "trainersPerCourse":[
+            {"id":1,"trainersId":1,"courseId":1},
+            {"id":2,"trainersId":1,"courseId":2},
+            {"id":3,"trainersId":3,"courseId":1},
+            {"id":4,"trainersId":3,"courseId":3},
+            {"id":5,"trainersId":3,"courseId":4}
+        ],
+        "students":[
+            {"id":1,"firstName":"Jesse","lastName":"Jennings","dateOfBirth":"2000-01-24","tuitionFees":1600},{"id":2,"firstName":"Alexandria","lastName":"Simmons","dateOfBirth":"1988-02-02","tuitionFees":1600},{"id":3,"firstName":"Juan","lastName":"Fritz","dateOfBirth":"2002-11-11","tuitionFees":750},{"id":4,"firstName":"Thomas","lastName":"Wolfe","dateOfBirth":"1990-11-16","tuitionFees":2300},{"id":5,"firstName":"Philip","lastName":"Sanchez","dateOfBirth":"1997-02-15","tuitionFees":1400},{"id":6,"firstName":"Rodney","lastName":"Stephenson","dateOfBirth":"1998-04-11","tuitionFees":1600},{"id":7,"firstName":"Dave","lastName":"Lewis","dateOfBirth":"1991-01-13","tuitionFees":2200},{"id":8,"firstName":"Joy","lastName":"Webb","dateOfBirth":"1990-03-15","tuitionFees":950},{"id":9,"firstName":"Jordan","lastName":"Willis","dateOfBirth":"1996-12-07","tuitionFees":650},{"id":10,"firstName":"Paul","lastName":"Vaughn","dateOfBirth":"1990-04-04","tuitionFees":1500},{"id":11,"firstName":"Daniel","lastName":"Palmer","dateOfBirth":"1997-11-10","tuitionFees":950},{"id":12,"firstName":"Brian","lastName":"Decker","dateOfBirth":"2001-04-24","tuitionFees":650},{"id":13,"firstName":"Theresa","lastName":"Flores","dateOfBirth":"1975-08-09","tuitionFees":600},{"id":14,"firstName":"Robert","lastName":"Arias","dateOfBirth":"2004-01-07","tuitionFees":2100},{"id":15,"firstName":"Haley","lastName":"Brown","dateOfBirth":"1990-11-11","tuitionFees":750},{"id":16,"firstName":"Michael","lastName":"Perez","dateOfBirth":"1995-11-10","tuitionFees":1600},{"id":17,"firstName":"Ashley","lastName":"Jackson","dateOfBirth":"1988-06-15","tuitionFees":1100},{"id":18,"firstName":"Joseph","lastName":"Patterson","dateOfBirth":"1980-01-30","tuitionFees":500},{"id":19,"firstName":"Gina","lastName":"Williams","dateOfBirth":"1975-12-30","tuitionFees":1900},{"id":20,"firstName":"Christopher","lastName":"Patel","dateOfBirth":"2002-05-24","tuitionFees":2100},{"id":21,"firstName":"David","lastName":"Oliver","dateOfBirth":"1993-08-28","tuitionFees":500},{"id":22,"firstName":"Michelle","lastName":"Anderson","dateOfBirth":"1993-08-04","tuitionFees":700},{"id":23,"firstName":"Norman","lastName":"Sanchez","dateOfBirth":"1988-12-06","tuitionFees":550},{"id":24,"firstName":"Christine","lastName":"Giles","dateOfBirth":"1990-09-21","tuitionFees":1100},{"id":25,"firstName":"Lisa","lastName":"Jenkins","dateOfBirth":"1989-03-13","tuitionFees":1200},{"id":26,"firstName":"Natalie","lastName":"Espinoza","dateOfBirth":"2000-06-04","tuitionFees":950},{"id":27,"firstName":"Jeffrey","lastName":"King","dateOfBirth":"1975-09-04","tuitionFees":550},{"id":28,"firstName":"Erica","lastName":"Johns","dateOfBirth":"2003-08-19","tuitionFees":2000},{"id":29,"firstName":"Cheryl","lastName":"Payne","dateOfBirth":"1986-08-25","tuitionFees":900},{"id":30,"firstName":"Brian","lastName":"Barton","dateOfBirth":"1977-07-28","tuitionFees":2500},{"id":31,"firstName":"Tina","lastName":"Mahoney","dateOfBirth":"1999-07-02","tuitionFees":1500},{"id":32,"firstName":"Alice","lastName":"Woodard","dateOfBirth":"1987-07-28","tuitionFees":500},{"id":33,"firstName":"Marie","lastName":"Lewis","dateOfBirth":"1995-06-04","tuitionFees":1400},{"id":34,"firstName":"Daniel","lastName":"Cooper","dateOfBirth":"2000-02-07","tuitionFees":2500},{"id":35,"firstName":"Brenda","lastName":"Gregory","dateOfBirth":"2000-03-21","tuitionFees":1000},{"id":36,"firstName":"Jonathan","lastName":"Lopez","dateOfBirth":"1986-12-04","tuitionFees":1200},{"id":37,"firstName":"Jamie","lastName":"Potter","dateOfBirth":"2003-09-26","tuitionFees":1500},{"id":38,"firstName":"Bradley","lastName":"Taylor","dateOfBirth":"1996-06-30","tuitionFees":750},{"id":39,"firstName":"Jeff","lastName":"Ramirez","dateOfBirth":"2004-09-03","tuitionFees":2400},{"id":40,"firstName":"James","lastName":"Williams","dateOfBirth":"1981-07-23","tuitionFees":2000},{"id":41,"firstName":"Rhonda","lastName":"Johnson","dateOfBirth":"1981-02-23","tuitionFees":1500},{"id":42,"firstName":"John","lastName":"Bryant","dateOfBirth":"1993-02-01","tuitionFees":2300}
+        ],
+        "studentsPerCourse":[
+            {"id":1,"studentId":1,"courseId":1},
+            {"id":2,"studentId":1,"courseId":2},
+            {"id":3,"studentId":3,"courseId":1},
+            {"id":4,"studentId":3,"courseId":3},
+            {"id":5,"studentId":3,"courseId":4}
+        ],
+        "assignments":[
+            {"id":1,"title":"Assignment 1","description":"Each student will research a support service available on campus and present their findings to the class, on the days indicated on the course schedule.","subDateTime":"2022-04-11T14:00","oralMark":40, "totalMark":50},
+            {"id":2,"title":"Assignment 2","description":"Below is a list of common student support areas available from the university. All are important. You will choose the name of a campus office from this list and sign up with me (first person to choose a particular topic gets it, so if there’s one you’re particularly interested, sign up right away).","subDateTime":"2022-05-09T14:00","oralMark":40, "totalMark":50},
+            {"id":3,"title":"Assignment 3","description":"All students will share the resources they discover, through a presentation to the class. Each student will be given three minutes to report what he or she learned through research. Your presentation must include a handout (either from the office or created by you).","subDateTime":"2022-06-06T14:00","oralMark":40, "totalMark":50},
+            {"id":4,"title":"Assignment 4","description":"Your portfolio is due on the date indicated on the course schedule. You must turn it in to the Liberal Studies department office. Please do not bring the portfolio to class; I won’t be able to carry 10+ binders.","subDateTime":"2022-07-11T14:00","oralMark":40, "totalMark":50},
+            {"id":5,"title":"Assignment 5","description":"Each student will complete a Major Advising Plan (MAP) consisting of a listing of all your courses already completed, possible options for courses needed, and all of your course selections through graduation, including your concentration (don’t forget your name and ID number).","subDateTime":"2022-09-05T14:00","oralMark":40, "totalMark":50}
+        ],
+        "assignmentsPerCourse":[
+            {"id":1,"assignmentId":1,"courseId":1},
+            {"id":2,"assignmentId":1,"courseId":2},
+            {"id":3,"assignmentId":3,"courseId":1},
+            {"id":4,"assignmentId":3,"courseId":3},
+            {"id":5,"assignmentId":3,"courseId":4}
+        ]
+    },
+    "navBar":{
+        "courses":{"text":"Courses", "img":"nav-course.png", "img_large":"nav-large-course.png"},
+        "trainers":{"text":"Trainers", "img":"nav-trainers.png", "img_large":"nav-large-trainers.png"},
+        "students":{"text":"Students", "img":"nav-students.png", "img_large":"nav-large-students.png"},
+        "assignments":{"text":"Assignments", "img":"nav-assignment.png", "img_large":"nav-large-assignment.png"}
+    },
+    "forms":{
+        "add_edit_course":{
+            "nav":{"group":"courses", "button":{"name":"addEditCourse","text":"Add / Edit"}},
+            "dbData":{"table":"courses", "key":"id", "autoKey":"id", "multiSelect":false, "cels":{"id":"dbCell_1","title":"dbCell_2","stream":"dbCell_3","type":"dbCell_4","startDate":"dbCell_5","endDate":"dbCell_6"}},
+            "main":{
+                "header":[{"title":"Add / Edit Course"}],
+                "formModes":{
+                    "selector":{"has":true, "class":"customRadioContainer", "elems":[{"tag":"input", "type":"radio", "name":"form_mode", "value":"add", "text":"Add", "spanClass":"btn-icon btn-icon-add", "checked":""},{"tag":"input", "type":"radio", "name":"form_mode", "value":"edit", "text":"Edit", "spanClass":"btn-icon btn-icon-edit"}]}
+                },
+                "preBody":[
+                    {"inmode":["edit"], "container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select a title", "data":{"table":"courses","value":"id","text":"title","text2":"stream"}}]}
+                ],
+                "body":[
+                    {"inmode":["edit"], "header":"Id", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Id", "id":"dbCell_1", "name":"dbCell_1", "placeholder":"Auto increment", "disabled":""}]},
+                    {"header":"Title", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Title", "id":"dbCell_2", "name":"dbCell_2", "minLength":3, "maxLength":50, "placeholder":"Title of the course", "required":""}]},
+                    {"header":"Stream", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Stream", "id":"dbCell_3", "name":"dbCell_3", "minLength":1, "maxLength":20, "placeholder":"C#, Java, python ...", "required":""}]},
+                    {"header":"Type", "class":"customRadioContainer", "colSpan":1, "elems": [{"tag":"input", "type":"radio", "alt":"Type", "name":"dbCell_4", "value":"0", "text":"Morning", "checked":""},{"tag":"input", "alt":"Type", "type":"radio", "name":"dbCell_4", "value":"1", "text":"Evening"}]},
+                    {"header":"Start date", "colSpan":1, "elems": [{"tag":"input", "type":"date", "alt":"Start date", "id":"dbCell_5", "name":"dbCell_5", "required":""}]},
+                    {"header":"End date", "colSpan":1, "elems": [{"tag":"input", "type":"date", "alt":"End date", "id":"dbCell_6", "name":"dbCell_6", "required":""}]}
+                ],
+                "footer":[
+                    {"container":"div", "class":"buttons-container", "elems": [
+                        {"tag":"button", "type":"reset", "value":"reset", "text":"Clear"},
+                        {"inmode":["add"],"class":"button-color-rand", "tag":"button", "type":"button", "value":"Rand", "text":"Rand Data"},
+                        {"inmode":["edit"], "class":"button-color-red", "tag":"button", "type":"button", "value":"delete", "text":"Delete"},
+                        {"tag":"button", "type":"submit", "value":"submit", "text":"Save"}
+                        ]}
+                ]
+            }
+        },
+        "add_edit_trainer":{
+            "nav":{"group":"trainers", "button":{"name":"addEditTrainer","text":"Add / Edit"}},
+            "dbData":{"table":"trainers", "key":"id", "autoKey":"id", "multiSelect":false, "cels":{"id":"dbCell_1", "firstName":"dbCell_2","lastName":"dbCell_3","subject":"dbCell_4"}},
+            "main":{
+                "header":[{"title":"Add / Edit Trainer"}],
+                "formModes":{
+                    "selector":{"has":true, "class":"customRadioContainer", "elems":[{"tag":"input", "type":"radio", "name":"form_mode", "value":"add", "text":"Add", "spanClass":"btn-icon btn-icon-add", "checked":""},{"tag":"input", "type":"radio", "name":"form_mode", "value":"edit", "text":"Edit", "spanClass":"btn-icon btn-icon-edit"}]}
+                },
+                "preBody":[
+                    {"inmode":["edit"], "container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select a trainer", "data":{"table":"trainers","value":"id","text":"firstName","text2":"lastName"}}]}
+                ],
+                "body":[
+                    {"inmode":["edit"], "header":"Id", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Id", "id":"dbCell_1", "name":"dbCell_1", "placeholder":"Auto increment", "disabled":""}]},
+                    {"header":"First name", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"First name", "id":"dbCell_2", "name":"dbCell_2", "minLength":2, "maxLength":30, "placeholder":"Trainers First name", "required":""}]},
+                    {"header":"Last name", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Last name", "id":"dbCell_3", "name":"dbCell_3", "minLength":3, "maxLength":30, "placeholder":"Trainers Last name", "required":""}]},
+                    {"header":"Subject", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Subject", "id":"dbCell_4", "name":"dbCell_4", "minLength":1, "maxLength":20, "placeholder":"Trainers Subject", "required":""}]}
+                    
+                ],
+                "footer":[
+                    {"container":"div", "class":"buttons-container", "elems": [
+                        {"tag":"button", "type":"reset", "value":"reset", "text":"Clear"},
+                        {"inmode":["add"],"class":"button-color-rand", "tag":"button", "type":"button", "value":"Rand", "text":"Rand Data"},
+                        {"inmode":["edit"], "class":"button-color-red", "tag":"button", "type":"button", "value":"delete", "text":"Delete"},
+                        {"tag":"button", "type":"submit", "value":"submit", "text":"Save"}
+                        ]}
+                ]
+            }
+        },
+        "add_edit_trainer_per_course":{
+            "nav":{"group":"trainers", "button":{"name":"addEditTrainerPerCourse","text":"Per Course"}},
+            "dbData":{"table":"trainersPerCourse", "key":"id", "autoKey":"id", "multiSelect":true, "multiCels":{"fromDb":{"db":"trainersPerCourse","key":"id","cells":["courseId","trainersId"]},"toDb":{"db":"trainers","key":"id","cells":["firstName","lastName"]},"selectors":{"in":"dbCell_1","out":"dbCell_2"}}, "cels":{"id":"dbCell_1", "courseId":"dbCell_2","trainersId":"dbCell_3"}},
+            "main":{
+                "header":[{"title":"Add / Remove Trainers per Course"}],
+                "formModes":{
+                    "selector":{"has":false, "class":"customRadioContainer", "elems":[]}
+                },
+                "preBody":[
+                    {"container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select a course", "data":{"table":"courses","value":"id","text":"title","text2":"stream"}}]}
+                ],
+                "body":[
+                    {"header":"Trainers In Course", "colSpan":2, "elems": [{"tag":"select", "type":"", "alt":"Trainers In Course", "id":"dbCell_1", "name":"dbCell_1", "multiple":""},{"tag":"button", "class":"select-action-button button-icon-remove", "value":"select-remove", "text":"&nbsp;"}]},
+                    {"header":"Trainers available to add", "colSpan":2, "elems": [{"tag":"select", "type":"", "alt":"Trainers Available To Add", "id":"dbCell_2", "name":"dbCell_2", "multiple":""},{"tag":"button", "class":"select-action-button button-icon-add", "value":"select-add", "text":"&nbsp;"}]}
+                ],
+                "footer":[
+                ]
+            }
+        },
+        "add_edit_student":{
+            "nav":{"group":"students", "button":{"name":"addEditStudent","text":"Add / Edit"}},
+            "dbData":{"table":"students", "key":"id", "autoKey":"id", "multiSelect":false, "cels":{"id":"dbCell_1", "firstName":"dbCell_2","lastName":"dbCell_3","dateOfBirth":"dbCell_4","tuitionFees":"dbCell_5"}},
+            "main":{
+                "header":[{"title":"Add / Edit Student"}],
+                "formModes":{
+                    "selector":{"has":true, "class":"customRadioContainer", "elems":[{"tag":"input", "type":"radio", "name":"form_mode", "value":"add", "text":"Add", "spanClass":"btn-icon btn-icon-add", "checked":""},{"tag":"input", "type":"radio", "name":"form_mode", "value":"edit", "text":"Edit", "spanClass":"btn-icon btn-icon-edit"}]}
+                },
+                "preBody":[
+                    {"inmode":["edit"], "container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select a student", "data":{"table":"students","value":"id","text":"firstName","text2":"lastName"}}]}
+                ],
+                "body":[
+                    {"inmode":["edit"], "header":"Id", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Id", "id":"dbCell_1", "name":"dbCell_1", "placeholder":"Auto increment", "disabled":""}]},
+                    {"header":"First name", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"First name", "id":"dbCell_2", "name":"dbCell_2", "minLength":2, "maxLength":30, "placeholder":"Students First name", "required":""}]},
+                    {"header":"Last name", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Last name", "id":"dbCell_3", "name":"dbCell_3", "minLength":3, "maxLength":30, "placeholder":"Students Last name", "required":""}]},
+                    {"header":"Start date", "colSpan":1, "elems": [{"tag":"input", "type":"date", "alt":"Start date", "id":"dbCell_4", "name":"dbCell_4", "required":""}]},
+                    {"header":"Tuition fees", "colSpan":1, "elems": [{"tag":"input", "type":"number", "alt":"Tuition fees", "id":"dbCell_5", "name":"dbCell_5", "min":0, "placeholder":"Students Tuition Fees", "required":""}]}
+                    
+                ],
+                "footer":[
+                    {"container":"div", "class":"buttons-container", "elems": [
+                        {"tag":"button", "type":"reset", "value":"reset", "text":"Clear"},
+                        {"inmode":["add"],"class":"button-color-rand", "tag":"button", "type":"button", "value":"Rand", "text":"Rand Data"},
+                        {"inmode":["edit"], "class":"button-color-red", "tag":"button", "type":"button", "value":"delete", "text":"Delete"},
+                        {"tag":"button", "type":"submit", "value":"submit", "text":"Save"}
+                        ]}
+                ]
+            }
+        },
+        "add_edit_student_per_course":{
+            "nav":{"group":"students", "button":{"name":"addEditStudentPerCourse","text":"Per Course"}},
+            "dbData":{"table":"studentsPerCourse", "key":"id", "autoKey":"id", "multiSelect":true, "multiCels":{"fromDb":{"db":"studentsPerCourse","key":"id","cells":["courseId","studentId"]},"toDb":{"db":"students","key":"id","cells":["firstName","lastName"]},"selectors":{"in":"dbCell_1","out":"dbCell_2"}}, "cels":{"id":"dbCell_1", "courseId":"dbCell_2","studentId":"dbCell_3"}},
+            "main":{
+                "header":[{"title":"Add / Remove Student per Course"}],
+                "formModes":{
+                    "selector":{"has":false, "class":"customRadioContainer", "elems":[]}
+                },
+                "preBody":[
+                    {"container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select a course", "data":{"table":"courses","value":"id","text":"title","text2":"stream"}}]}
+                ],
+                "body":[
+                    {"header":"Students In Course", "colSpan":2, "elems": [{"tag":"select", "type":"", "alt":"Students In Course", "id":"dbCell_1", "name":"dbCell_1", "multiple":""},{"tag":"button", "class":"select-action-button button-icon-remove", "value":"select-remove", "text":"&nbsp;"}]},
+                    {"header":"Students available to add", "colSpan":2, "elems": [{"tag":"select", "type":"", "alt":"Students Available To Add", "id":"dbCell_2", "name":"dbCell_2", "multiple":""},{"tag":"button", "class":"select-action-button button-icon-add", "value":"select-add", "text":"&nbsp;"}]}
+                ],
+                "footer":[
+                ]
+            }
+        },
+        "add_edit_assignment":{
+            "nav":{"group":"assignments", "button":{"name":"addEditAssignment","text":"Add / Edit"}},
+            "dbData":{"table":"assignments", "key":"id", "autoKey":"id", "multiSelect":false, "cels":{"id":"dbCell_1", "title":"dbCell_2","description":"dbCell_3","subDateTime":"dbCell_4","oralMark":"dbCell_5","totalMark":"dbCell_6"}},
+            "main":{
+                "header":[{"title":"Add / Edit Assignment"}],
+                "formModes":{
+                    "selector":{"has":true, "class":"customRadioContainer", "elems":[{"tag":"input", "type":"radio", "name":"form_mode", "value":"add", "text":"Add", "spanClass":"btn-icon btn-icon-add", "checked":""},{"tag":"input", "type":"radio", "name":"form_mode", "value":"edit", "text":"Edit", "spanClass":"btn-icon btn-icon-edit"}]}
+                },
+                "preBody":[
+                    {"inmode":["edit"], "container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select an assignment", "data":{"table":"assignments","value":"id","text":"title", "text2":""}}]}
+                ],
+                "body":[
+                    {"inmode":["edit"], "header":"Id", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Id", "id":"dbCell_1", "name":"dbCell_1", "placeholder":"Auto increment", "disabled":""}]},
+                    {"header":"Title", "colSpan":1, "elems": [{"tag":"input", "type":"text", "alt":"Title", "id":"dbCell_2", "name":"dbCell_2", "minLength":5, "maxLength":50, "placeholder":"Assignment title", "required":"" }]},
+                    {"header":"Description", "colSpan":1, "elems": [{"tag":"textarea", "alt":"Description", "id":"dbCell_3", "name":"dbCell_3", "minLength":5, "maxLength":350, "rows":"4", "cols":"50", "placeholder":"Provide some description of the Assignment here..." }]},
+                    {"header":"Sub date time", "colSpan":1, "elems": [{"tag":"input", "type":"datetime-local", "alt":"Sub date time", "id":"dbCell_4", "name":"dbCell_4", "required":""}]},
+                    {"header":"Oral mark", "colSpan":1, "elems": [{"tag":"input", "type":"number", "alt":"Oral mark", "id":"dbCell_5", "name":"dbCell_5", "min":0, "max":100, "placeholder":"Oral mark 0 to 100", "required":""}]},
+                    {"header":"Total mark", "colSpan":1, "elems": [{"tag":"input", "type":"number", "alt":"Total mark", "id":"dbCell_6", "name":"dbCell_6", "min":0, "max":100, "placeholder":"Total mark 0 to 100", "required":""}]}
+                    
+                ],
+                "footer":[
+                    {"container":"div", "class":"buttons-container", "elems": [
+                        {"tag":"button", "type":"reset", "value":"reset", "text":"Clear"},
+                        {"inmode":["add"],"class":"button-color-rand", "tag":"button", "type":"button", "value":"Rand", "text":"Rand Data"},
+                        {"inmode":["edit"], "class":"button-color-red", "tag":"button", "type":"button", "value":"delete", "text":"Delete"},
+                        {"tag":"button", "type":"submit", "value":"submit", "text":"Save"}
+                        ]}
+                ]
+            }
+        },
+        "add_edit_assignment_per_course":{
+            "nav":{"group":"assignments", "button":{"name":"addEditAssignmenttPerCourse","text":"Per Course"}},
+            "dbData":{"table":"assignmentsPerCourse", "key":"id", "autoKey":"id", "multiSelect":true, "multiCels":{"fromDb":{"db":"assignmentsPerCourse","key":"id","cells":["courseId","assignmentId"]},"toDb":{"db":"assignments","key":"id","cells":["title",""]},"selectors":{"in":"dbCell_1","out":"dbCell_2"}}, "cels":{"id":"dbCell_1", "courseId":"dbCell_2","assignmentId":"dbCell_3"}},
+            "main":{
+                "header":[{"title":"Add / Remove Assignment per Course"}],
+                "formModes":{
+                    "selector":{"has":false, "class":"customRadioContainer", "elems":[]}
+                },
+                "preBody":[
+                    {"container":"div", "class":"", "elems": [{"tag":"select", "id":"select_item_edit", "title":"Select a course", "data":{"table":"courses","value":"id","text":"title","text2":"stream"}}]}
+                ],
+                "body":[
+                    {"header":"Assignments In Course", "colSpan":2, "elems": [{"tag":"select", "type":"", "alt":"Assignments In Course", "id":"dbCell_1", "name":"dbCell_1", "multiple":""},{"tag":"button", "class":"select-action-button button-icon-remove", "value":"select-remove", "text":"&nbsp;"}]},
+                    {"header":"Assignments available to add", "colSpan":2, "elems": [{"tag":"select", "type":"", "alt":"Assignments Available To Add", "id":"dbCell_2", "name":"dbCell_2", "multiple":""},{"tag":"button", "class":"select-action-button button-icon-add", "value":"select-add", "text":"&nbsp;"}]}
+                ],
+                "footer":[
+                ]
+            }
+        }
+    }
+}
